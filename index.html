@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>FlaniSoft ALM Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 650px; margin: 60px auto; padding: 20px; background: #f8fafc; color: #0f172a; }
+    .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-top: 4px solid #ff6b00; }
+    .badge { display: inline-block; background: #fff7ed; color: #c2410c; padding: 4px 10px; border-radius: 99px; font-size: 12px; font-weight: bold; }
+    .meta { margin-top: 20px; padding-top: 15px; border-top: 1px solid #e2e8f0; font-size: 13px; color: #64748b; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">ALM Pipeline Live-Demo</span>
+    <h1>Status: Deployment erfolgreich! 🚀</h1>
+    <p>Diese Seite wurde vollautomatisch über GitHub und Jenkins gebaut, geprüft, als Release-Artefakt verpackt und auf den aaPanel-Server ausgerollt.</p>
+    <div class="meta">
+      <strong>Build-Version:</strong> __BUILD_VERSION__ <br>
+      <strong>Deployed am:</strong> __DEPLOY_DATE__
+    </div>
+  </div>
+</body>
+</html>
